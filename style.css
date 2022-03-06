@@ -8,11 +8,297 @@ body{
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Shippori Mincho', serif;
+background-color: #f8f9fa;
 }
 /* topbar start */
 .topbar{
+width: 100%;
+background-color: #223A66;
 
 }
 .box{
+display: flex;
+justify-content:space-around;
+padding: 20px 0px;
+
+}
+.mail{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family:sans-serif;
+    font-size: 12px;
+}
+i{
+    font-size: 15px;
     
 }
+/* top bar end */
+/* header start */
+header{
+width: 100%;
+display: flex;
+justify-content: space-around;
+padding: 20px 0px;
+box-shadow: 1px 1px 5px rgb(216, 212, 212);
+
+}
+.logo{
+
+}
+.logo img{
+
+}
+nav{
+
+}
+ul{
+margin-top: 15px;
+}
+ul li{
+list-style: none;
+display: inline;
+margin-left: 20px;
+    
+}
+ ul li a{
+    text-decoration: none;
+    color:#000;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* header end */
+/* start banner section */
+.banner-section{
+    width: 100%;
+    height: 72vh;
+    background-image: url(./images/doctor-1-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#box{
+position: absolute;
+top: 100px;
+left: 500px;
+}
+.content{
+
+}
+#paragraph{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #657d91;
+    letter-spacing: 3px;
+
+}
+#h1{
+color: #223A66;
+font-weight: 900;
+font-size: 60px;
+
+}
+#pa{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 30px;
+color: #677e8b;
+}
+.btn{
+    padding: 16px 50px 16px 30px;
+    
+    font-weight: 600;
+    border: none;
+    background: #E22C5A;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color: #223A66;
+}
+.hr{
+    color: #E22C5A;
+    width: 60px;
+}
+/* banner section end */
+/* section1 start */
+.section1{
+width: 70%;
+
+display: flex;
+
+margin-left: 190px;
+
+}
+.card{
+    margin-left: 40px;
+text-align:left;
+background-color: #FFFFFF;
+padding: 30px 35px;position: relative;
+top: -100px;
+left: 200px;
+border-radius: 15px;
+transform: scale(1);
+transition: transform 1s;
+}
+.card:hover{
+transform: scale(1.2);
+}
+#pa{
+font-family: Arial, Helvetica, sans-serif;
+}
+#plus{
+font-family:sans-serif;
+font-size: 14px;
+color: hsl(207, 30%, 46%);
+line-height: 30px;
+
+}
+.icon{
+
+}
+.icon img{
+width: 60px;
+}
+#heading3{
+    color: #284170;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+.bbb{
+padding: 15px 20px;
+background-color: #223A66;
+color: #FFFFFF;
+border: none;
+font-weight: 700;
+border-radius: 40px;
+margin-top: 20px;
+transition: 1s;
+
+}
+.bbb:hover{
+    background-color: #E22C5A;
+}
+/* section1 end */
+/* section2 start */
+.section2{
+    width: 100%;
+display: flex;
+    
+}
+.box3{
+display: flex;
+margin-left: 300px;
+}
+.box33{
+position: relative;
+left: 100px;
+top: 150px;
+}
+.col{
+line-height: 90px;
+transform: scale(1);
+transition: transform 1s;
+
+}
+.col:hover{
+    transform: scale(1.2);
+}
+.iamge3 img{
+    width: 400px;
+}
+
+.row{
+position: relative;
+top: 100px;
+left: 20px;
+transform: scale(1);
+transition: transform 1s;
+}
+.row:hover{
+    transform: scale(0.7);
+}
+.image33 img{
+width: 400px;
+}
+/* section2 end */
+/* section3 start */
+.section3{
+    margin-top: 200px;
+    width: 90%;
+    height: 150px;
+    background-image: url(./icons/group\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 20px;   
+}
+.number{
+display: flex;
+
+
+}
+.nm{
+margin-top: 50px;
+margin-left: 40px;
+text-align: center;
+}
+#f{
+    color: #E22C5A;
+}
+/* section3 end */
+/* section4 start */
+.section4{
+    width: 100%;
+    background-color:#F4F9FC;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.heading-content{
+    text-align: center;
+}
+#hear{
+line-height: 60px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: #223A66;
+}
+#pavel{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: #4987ac;
+line-height: 30px;
+}
+.caer4{
+display: flex;
+margin-left: 350px;
+}
+.card-box1{
+margin-left: 80px;
+margin-top: 90px;
+}
+.card-box{
+margin-bottom: 50px;
+background-color: #FFFFFF;
+padding: 36px 33px;
+transform: scale(1);
+transition: transform 1s;
+}
+.card-box:hover{
+    transform: scale(1.2);
+}
+#h3{
+font-family: sans-serif;
+font-size: 20px;
+line-height: 40px;
+}
+#ra{
+font-family: sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #668088;
+}
+/* section4 end */
+/* section5 start */
+    
+
